@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="libs\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StackExchange.Redis" Version="2.2.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Izenda.BI.Cache">
+      <HintPath>libs\Izenda.BI.Cache.dll</HintPath>
+    </Reference>
+    <Reference Include="Izenda.BI.Cache.Metadata">
+      <HintPath>libs\Izenda.BI.Cache.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="Izenda.BI.Cache.Schedule">
+      <HintPath>libs\Izenda.BI.Cache.Schedule.dll</HintPath>
+    </Reference>
+    <Reference Include="Izenda.BI.CacheProvider">
+      <HintPath>libs\Izenda.BI.CacheProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="Izenda.BI.Core">
+      <HintPath>libs\Izenda.BI.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Izenda.BI.DataSourceAdapter">
+      <HintPath>libs\Izenda.BI.DataSourceAdapter.dll</HintPath>
+    </Reference>
+    <Reference Include="Izenda.BI.Framework">
+      <HintPath>libs\Izenda.BI.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Izenda.BI.Logic">
+      <HintPath>libs\Izenda.BI.Logic.dll</HintPath>
+    </Reference>
+    <Reference Include="Izenda.BI.SystemRepository">
+      <HintPath>libs\Izenda.BI.SystemRepository.dll</HintPath>
+    </Reference>
+    <Reference Include="Izenda.BI.Utility">
+      <HintPath>libs\Izenda.BI.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>libs\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>libs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Quartz">
+      <HintPath>libs\Quartz.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Composition.AttributedModel">
+      <HintPath>libs\System.Composition.AttributedModel.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
