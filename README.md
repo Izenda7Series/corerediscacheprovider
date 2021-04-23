@@ -1,4 +1,4 @@
-# Izenda .NET Core RedisCacheProvider (v3.0.0)
+# Izenda .NET Core RedisCacheProvider (v4.0.0)
 
 ## Overview
 This is a custom cache provider that utilizes the Redis cache.  
@@ -9,7 +9,7 @@ This is a custom cache provider that utilizes the Redis cache.
 
 1. Publish the project and copy the DLLs to the Izenda API directory:
 ```
-dotnet publish Izenda.BI.CacheProvider.RedisCache.csproj -c Release -o "C:\izenda" -f netcoreapp2.2
+dotnet publish Izenda.BI.CacheProvider.RedisCache.csproj -c Release -o "C:\izenda" -f netcoreapp3.1
 ```
    
 2. Remove the following DLL from the Izenda API directory:
